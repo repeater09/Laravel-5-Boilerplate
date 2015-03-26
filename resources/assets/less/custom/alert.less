@@ -1,0 +1,52 @@
+//Alerts will go here.
+
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  p {
+    display: inline-block;
+  }
+}
+
+.alert-warning {
+  background-color: lighten(@yellow, 35%);
+  border: 1px solid lighten(@yellow, 30%);
+}
+
+.alert-success {
+  background-color: lighten(@green, 35%);
+  border: 1px solid lighten(@green, 30%);
+}
+
+.alert-information {
+  background-color: lighten(@blue, 35%);
+  border: 1px solid lighten(@blue, 30%);
+}
+
+.alert-error {
+  background-color: lighten(@red, 35%);
+  border: 1px solid lighten(@red, 30%);
+}
+.alert-close {
+  position: relative;
+  right: -27px;
+  top: 2px;
+  float: right;
+  cursor: pointer;
+}
+.alert-close-warning {
+  color: darken(@yellow, 20%);
+}
+.alert-close-information {
+  color: darken(@blue, 20%);
+}
+.alert-close-success {
+  color: darken(@green, 20%);
+}
+.alert-close-error {
+  color: darken(@red, 20%);
+}

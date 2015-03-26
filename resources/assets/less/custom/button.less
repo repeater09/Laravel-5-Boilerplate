@@ -1,0 +1,178 @@
+/* Buttons
+
+  All button styles go here. Even the form element buttons.
+
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+.btn {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+.btn-small {
+  font-size: 9px;
+  padding: 0 15px;
+}
+.btn-large {
+  font-size: 130%;
+}
+.btn-block {
+  width: 100%;
+  max-width: 100%;
+}
+.btn-default {
+  background: #555;
+  color: #fff;
+  border: 1px solid #555;
+}
+.btn-default:hover {
+  background: darken(#555, 10%);
+  color: #fff;
+  border: 1px solid darken(#555, 10%);
+}
+.btn-information {
+  background: @blue;
+  border: 1px solid @blue;
+  color: #fff;
+}
+.btn-information:hover {
+  color: #fff;
+  background: darken(@blue, 15%);
+}
+.btn-error {
+  background: @red;
+  border: 1px solid @red;
+  color: #fff;
+}
+.btn-error:hover {
+  color: #fff;
+  background: darken(@red, 15%);
+}
+.btn-warning {
+  background: @yellow;
+  border: 1px solid @yellow;
+  color: #fff;
+}
+.btn-warning:hover {
+  color: #fff;
+  background: darken(@yellow, 15%);
+}
+.btn-success {
+  background: @green;
+  border: 1px solid @green;
+  color: #fff;
+}
+.btn-success:hover {
+  color: #fff;
+  background: darken(@green, 15%);
+}
+.btn-outline-default {
+  color: #555;
+  border: 1px solid #bbb;
+}
+.btn-outline-default:hover {
+  color: #333;
+  border: 1px solid #333;
+}
+.btn-outline-information {
+  color: @blue;
+  border: 1px solid lighten(@blue, 20%);
+}
+.btn-outline-information:hover {
+  color: darken(@blue, 15%);
+  border: 1px solid darken(@blue, 15%);
+}
+.btn-outline-success {
+  color: @green;
+  border: 1px solid lighten(@green, 20%);
+}
+.btn-outline-success:hover {
+  color: darken(@green, 15%);
+  border: 1px solid darken(@green, 15%);
+}
+.btn-outline-error {
+  color: @red;
+  border: 1px solid lighten(@red, 20%);
+}
+.btn-outline-error:hover {
+  color: darken(@red, 15%);
+  border: 1px solid darken(@red, 15%);
+}
+.btn-outline-warning {
+  color: @yellow;
+  border: 1px solid lighten(@yellow, 20%);
+}
+.btn-outline-warning:hover {
+  color: darken(@yellow, 15%);
+  border: 1px solid darken(@yellow, 15%);
+}

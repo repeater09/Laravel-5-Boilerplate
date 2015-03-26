@@ -1,0 +1,340 @@
+/* Custom Styles.
+
+  All styles that are unique to this project go here
+
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  color: @blue; }
+a:hover {
+  color: darken(@blue, 10%); }
+
+.login {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tile {
+  background: #fff;
+  border: 1px solid #e2e2e5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0 0 3px 3px;
+  padding: 15px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.12),
+  0 1px 2px 0 rgba(0,0,0,.24);
+  -moz-box-shadow:    0 1px 3px 0 rgba(0,0,0,.12),
+  0 1px 2px 0 rgba(0,0,0,.24);
+  box-shadow:         0 1px 3px 0 rgba(0,0,0,.12),
+  0 1px 2px 0 rgba(0,0,0,.24);
+}
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+
+/* GitHub Theme */
+.prettyprint {
+  background: #fff;
+  font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-size: 1.2rem;
+  padding: 2.5rem 3rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.pln {
+  color: #333333;
+}
+
+@media screen {
+  .str {
+    color: #dd1144;
+  }
+
+  .kwd {
+    color: #333333;
+  }
+
+  .com {
+    color: #999988;
+  }
+
+  .typ {
+    color: #445588;
+  }
+
+  .lit {
+    color: #445588;
+  }
+
+  .pun {
+    color: #333333;
+  }
+
+  .opn {
+    color: #333333;
+  }
+
+  .clo {
+    color: #333333;
+  }
+
+  .tag {
+    color: navy;
+  }
+
+  .atn {
+    color: teal;
+  }
+
+  .atv {
+    color: #dd1144;
+  }
+
+  .dec {
+    color: #333333;
+  }
+
+  .var {
+    color: teal;
+  }
+
+  .fun {
+    color: #990000;
+  }
+}
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  /* */
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}
+
+/* My additional styles */
+
+/*li.L0, li.L1, li.L2, li.L3,
+li.L5, li.L6, li.L7, li.L8
+{ list-style-type: decimal !important }*/
+
+.prettyprint li {
+  margin-bottom: .3rem;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+
+  These styles should follow the same standards as the other styles.
+  These styles should overwrite the set styles as it's the last LESS file to be called.
+*/
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.visible-phone {
+  display: inherit ;
+}
+
+.visible-tablet {
+  display: none ;
+}
+
+.hidden-phone {
+  display: none ;
+}
+
+.visible-desktop {
+  display: none ;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+  .tile {
+    margin-top: 20px;
+  }
+
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
+
+  .hidden-desktop {
+    display: inherit ;
+  }
+  .visible-desktop {
+    display: none  ;
+  }
+  .visible-tablet {
+    display: none ;
+  }
+  .hidden-tablet {
+    display: inherit ;
+  }
+  .visible-phone {
+    display: inherit ;
+  }
+  .hidden-phone {
+    display: none ;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
+
+  .hidden-desktop {
+    display: inherit ;
+  }
+  .visible-desktop {
+    display: none  ;
+  }
+  .visible-tablet {
+    display: none ;
+  }
+  .hidden-tablet {
+    display: inherit ;
+  }
+  .visible-phone {
+    display: inherit ;
+  }
+  .hidden-phone {
+    display: none ;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .hidden-desktop {
+    display: inherit ;
+  }
+  .visible-desktop {
+    display: none  ;
+  }
+  .visible-tablet {
+    display: inherit ;
+  }
+  .hidden-tablet {
+    display: none ;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 960px) {
+  .visible-phone {
+    display: none ;
+  }
+
+  .visible-tablet {
+    display: none ;
+  }
+
+  .hidden-desktop {
+    display: none ;
+  }
+
+  .visible-desktop {
+    display: inherit ;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .visible-phone {
+    display: none ;
+  }
+
+  .visible-tablet {
+    display: none ;
+  }
+
+  .hidden-desktop {
+    display: none ;
+  }
+
+  .visible-desktop {
+    display: inherit ;
+  }
+}
