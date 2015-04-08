@@ -55,7 +55,7 @@ Standard user accounts only can edit their account. They will not have the abili
 
 #### Front-end styling
 
-Documentation is available in `project.app:8000/docs
+Documentation is available in `project.app:8000/docs`
 
 
 
