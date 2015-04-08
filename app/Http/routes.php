@@ -12,6 +12,10 @@ Route::get('sign-up', 'LoginController@getSignup');
 
 Route::post('sign-up', 'LoginController@postSignup');
 
+//Site pages
+
+Route::get('docs', 'DocController@getDoc');
+
 Route::group(['middleware' => 'auth'], function(){
 
 	//if the user is logged in it goes in here. If they are a super_user they go inside the admin middleware.

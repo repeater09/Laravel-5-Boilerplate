@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{--CSS calls calls are auto concat and combining--}}
         <link rel="stylesheet" type="text/css" href="/css/style.css">
+        @yield('css')
         <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
     <body>
@@ -19,7 +20,7 @@
                 <nav id="navigation" class="visible-desktop top-nav">
                     <ul>
                         <li><a href="{{ URL::to('/') }}">Home</a></li>
-                        <li><a href="{{ URL::to('#') }}">Link</a></li>
+                        <li><a href="{{ URL::to('docs') }}">Docs</a></li>
                         <li class="menu menu-hover">
                             <a href="#">Drop-down Link</a>
                             <ul class="submenu">
@@ -76,6 +77,7 @@
         <script src="/js/all.js"></script>
         <script>
             $(document).ready(function() {
+                @yield('javascript')
                 $("#sticker").sticky({topSpacing:0});
                 $('#responsive-menu-button').sidr({
                     name: 'sidr-main',
