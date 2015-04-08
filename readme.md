@@ -55,7 +55,7 @@ Standard user accounts only can edit their account. They will not have the abili
 
 #### Front-end styling
 
-Documentation for the front-end and the unique features are being developed and will be included in a future update.
+Documentation is available in `project.app:8000/docs
 
 
 
