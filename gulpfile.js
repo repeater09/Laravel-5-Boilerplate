@@ -21,7 +21,8 @@ elixir(function(mix) {
         "jquery.js",
         "sidr.min.js",
         "sticky.js",
-        "alert.js"
+        "alert.js",
+        "tab.js"
     ]);
 
 });

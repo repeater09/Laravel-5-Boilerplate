@@ -359,6 +359,45 @@
             </div>
             <div class="row">
                 <div class="sixteen columns">
+                    <h5>Tabs</h5>
+                    <p>Having tabs on your website provides ways to show information in a more "dynamic" way.
+                        Allowing visitors to choose what they want to view in an easy to use tab format makes it more engaging and easier to view information that they feel is important</p>
+                    <pre>
+                        <code>&lt;div class="tab"&gt;<br/> &lt;ul class="tabs"&gt;<br/> &lt;li&gt;&lt;a href="#"&gt;Meow&lt;/a&gt;&lt;/li&gt;<br/> &lt;li&gt;&lt;a href="#"&gt;I got a friend&lt;/a&gt;&lt;/li&gt;<br/> &lt;li&gt;&lt;a href="#"&gt;I don't know what I am doing with my life.&lt;/a&gt;&lt;/li&gt;<br/> &lt;/ul&gt;<br/> &lt;div class="tab_content"&gt;<br/> &lt;div class="tabs_item"&gt;<br/> &lt;img src="http://cdn.playbuzz.com/cdn/0079c830-3406-4c05-a5c1-bc43e8f01479/7dd84d70-768b-492b-88f7-a6c70f2db2e9.jpg"&gt;<br/> &lt;h4&gt;This is a Regular cat.&lt;/h4&gt;<br/> &lt;p&gt;Consectetur adipisicing elit. Neque, repellat facilis totam ab eos distinctio sint atque maiores! Dignissimos, molestiae, rem accusantium iure vitae voluptatum voluptas repudiandae deserunt dolore quis! Quisquam mollitia eius sed.&lt;/p&gt;<br/> &lt;/div&gt;<br/> &lt;div class="tabs_item"&gt;<br/> &lt;img src="http://www.petsworld.in/blog/wp-content/uploads/2014/09/cute-kittens.jpg"&gt;<br/> &lt;h4&gt;These cats are best friends&lt;/h4&gt;<br/> &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, suscipit, eaque asperiores neque numquam nam possimus dolorem ipsa aspernatur reiciendis?&lt;/p&gt;<br/> &lt;/div&gt;<br/> &lt;div class="tabs_item"&gt;<br/> &lt;img src="http://img.thesun.co.uk/aidemitlum/archive/01604/SNN2035CAT-620_1604704a.jpg"&gt;<br/> &lt;h4&gt;This cat has mad thoughts about life in general.&lt;/h4&gt;<br/> &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, excepturi, minima, corporis deserunt quia quae sit officiis labore inventore autem a delectus consequuntur voluptatem modi eligendi similique sed nam vitae.&lt;/p&gt;<br/> &lt;/div&gt;<br/> &lt;/div&gt;<br/> &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <div class="row">
+                <div class="sixteen columns">
+                    <div class="tab">
+                        <ul class="tabs">
+                            <li><a href="#">Meow</a></li>
+                            <li><a href="#">I got a friend</a></li>
+                            <li><a href="#">I don't know what I am doing with my life.</a></li>
+                        </ul>
+                        <div class="tab_content">
+                            <div class="tabs_item">
+                                <img src="http://cdn.playbuzz.com/cdn/0079c830-3406-4c05-a5c1-bc43e8f01479/7dd84d70-768b-492b-88f7-a6c70f2db2e9.jpg">
+                                <h4>This is a Regular cat.</h4>
+                                <p>Consectetur adipisicing elit. Neque, repellat facilis totam ab eos distinctio sint atque maiores! Dignissimos, molestiae, rem accusantium iure vitae voluptatum voluptas repudiandae deserunt dolore quis! Quisquam mollitia eius sed.</p>
+                            </div>
+                            <div class="tabs_item">
+                                <img src="http://www.petsworld.in/blog/wp-content/uploads/2014/09/cute-kittens.jpg">
+                                <h4>These cats are best friends</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, suscipit, eaque asperiores neque numquam nam possimus dolorem ipsa aspernatur reiciendis?</p>
+                            </div>
+                            <div class="tabs_item">
+                                <img src="http://img.thesun.co.uk/aidemitlum/archive/01604/SNN2035CAT-620_1604704a.jpg">
+                                <h4>This cat has mad thoughts about life in general.</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, excepturi, minima, corporis deserunt quia quae sit officiis labore inventore autem a delectus consequuntur voluptatem modi eligendi similique sed nam vitae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="sixteen columns">
                     <h5>Custom</h5>
                     <p>There are plenty of custom styles that I have provided to make designing and developing easier. I cannot showcase each individual style but I do encourage sniffing through the source code and seeing what you can find.</p>
                     <h6>Utilities</h6>
